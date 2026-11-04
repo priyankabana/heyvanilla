@@ -28,3 +28,4 @@ public/worker-*.js
 .idea/
 *.zip
 .env*
+supabase/.temp/
