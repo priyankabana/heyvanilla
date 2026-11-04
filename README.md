@@ -1,5 +1,7 @@
 # HeyVanilla
 
+**Live demo:** https://heyvanilla.vercel.app
+
 *"don't melt, Vanilla. you got this."*
 
 > A soft, personal life-tracker — habits, tasks, journal, money, mood, health, study and goals in one themeable dashboard — built with Next.js 14, Supabase (Postgres + Auth + RLS) and TypeScript.
