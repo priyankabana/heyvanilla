@@ -1,0 +1,18 @@
+/* Lana Del Ray Honeymoon — dusty blue, navy, oxblood (neutral) */
+html.theme-lana-del-ray {
+  --bg-primary: #ECE4E5;
+  --bg-secondary: #E0D1CA;
+  --bg-card: rgba(255, 255, 255, 0.5);
+  --text-primary: #192B51;
+  --text-secondary: #5A6A82;
+  --accent: #72251F;
+  --accent-light: #C6D0DD;
+  --accent-dark: #2E1819;
+  --border: rgba(25, 43, 81, 0.15);
+  --success: #6E8B6A;
+  --warning: #C08A4B;
+  --danger: #72251F;
+  --font-display: var(--font-inter);
+  --font-body: var(--font-inter);
+  --radius: 0.875rem;
+}

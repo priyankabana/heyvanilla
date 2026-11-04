@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "quote": "don't melt, Vanilla. you got this.",
+    "author": "personal",
+    "category": "personal"
+  },
+  {
+    "id": 2,
+    "quote": "rest is not a reward you earn. it's a thing you're allowed to have.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 3,
+    "quote": "you are allowed to take up space today.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 4,
+    "quote": "slow is still moving. keep going at your pace.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 5,
+    "quote": "be as kind to yourself as you'd be to a friend having a hard day.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 6,
+    "quote": "you don't have to finish everything. you just have to start something.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 7,
+    "quote": "your worth was never tied to your to-do list.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 8,
+    "quote": "drink some water. you'll feel a little more human.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 9,
+    "quote": "it's okay to close the laptop and just breathe for a minute.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 10,
+    "quote": "you've survived every bad day so far. that's a perfect record.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 11,
+    "quote": "feelings are visitors. let them come, let them go.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 12,
+    "quote": "a soft morning counts as a productive one too.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 13,
+    "quote": "you're allowed to change your mind. that's growth, not failure.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 14,
+    "quote": "perfect was never the assignment. honest was.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 15,
+    "quote": "give yourself the grace you keep handing out to everyone else.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 16,
+    "quote": "the version of you that's tired today still deserves good things.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 17,
+    "quote": "small steps in the right direction are still the right direction.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 18,
+    "quote": "you don't owe anyone an explanation for protecting your peace.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 19,
+    "quote": "some days the win is just showing up. that counts.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 20,
+    "quote": "let today be enough. you've done more than you think.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 21,
+    "quote": "start before you feel ready. ready is something you build along the way.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 22,
+    "quote": "the work you do quietly still matters, even when no one claps.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 23,
+    "quote": "one honest hour beats five distracted ones.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 24,
+    "quote": "you're not behind. you're exactly where your story needs you.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 25,
+    "quote": "future you is built by the tiny choices present you makes.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 26,
+    "quote": "momentum loves a small beginning.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 27,
+    "quote": "do the thing scared. courage is just fear that kept walking.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 28,
+    "quote": "you don't have to see the whole staircase. take the first step.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 29,
+    "quote": "consistency is just love, repeated.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 30,
+    "quote": "the goal isn't to be busy. the goal is to be intentional.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 31,
+    "quote": "progress hides in the days that felt like nothing happened.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 32,
+    "quote": "keep your promises to yourself first.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 33,
+    "quote": "discipline is choosing what you want most over what you want now.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 34,
+    "quote": "finish the messy first draft. you can't edit a blank page.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 35,
+    "quote": "showing up on the low days is what makes the high days possible.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 36,
+    "quote": "you can want rest and still want to grow. both are allowed.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 37,
+    "quote": "the dream still counts even when the progress is slow.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 38,
+    "quote": "focus on the next right thing, not the whole mountain.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 39,
+    "quote": "effort compounds quietly, then all at once.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 40,
+    "quote": "you became capable by doing things you weren't sure you could.",
+    "author": "HeyVanilla",
+    "category": "motivational"
+  },
+  {
+    "id": 41,
+    "quote": "a plan you'll actually follow beats a perfect one you won't.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 42,
+    "quote": "protect your mornings. they set the tone for everything after.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 43,
+    "quote": "do the scary email first. the day gets lighter after.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 44,
+    "quote": "two minutes now saves you an hour of dread later.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 45,
+    "quote": "clarity comes from action, not from more thinking.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 46,
+    "quote": "close the open tabs in your head, one at a time.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 47,
+    "quote": "you can't pour from an empty cup, so fill yours first.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 48,
+    "quote": "single tasking is a quiet superpower.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 49,
+    "quote": "saying no to one thing is saying yes to your priorities.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 50,
+    "quote": "a tidy space is a gift you give your future self.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 51,
+    "quote": "break it smaller until it stops feeling scary.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 52,
+    "quote": "the best system is the one you'll keep using tomorrow.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 53,
+    "quote": "deadlines are just promises with a date attached.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 54,
+    "quote": "if it takes two minutes, do it now.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 55,
+    "quote": "rest on purpose so you don't crash by accident.",
+    "author": "HeyVanilla",
+    "category": "productivity"
+  },
+  {
+    "id": 56,
+    "quote": "comparison is borrowing someone else's middle and judging your beginning.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 57,
+    "quote": "you can be a work in progress and a masterpiece at the same time.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 58,
+    "quote": "the people who matter won't mind your unanswered texts.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 59,
+    "quote": "some seasons are for planting. you won't see the bloom yet.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 60,
+    "quote": "home is a feeling you can build inside yourself.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 61,
+    "quote": "let people surprise you. most of them are trying their best too.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 62,
+    "quote": "you're allowed to outgrow plans you made when you knew less.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 63,
+    "quote": "joy counts even when it's small and quiet.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 64,
+    "quote": "the day doesn't have to be good for a moment of it to be.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 65,
+    "quote": "you're not too much. you just haven't found your people yet.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 66,
+    "quote": "healing isn't linear, and that's allowed.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 67,
+    "quote": "gratitude turns what you have into enough.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 68,
+    "quote": "you can hold hope and uncertainty in the same hand.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 69,
+    "quote": "the right path often feels like a slow one.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 70,
+    "quote": "be patient with the parts of you still becoming.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 71,
+    "quote": "your story isn't behind schedule. it's just yours.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 72,
+    "quote": "a good life is mostly ordinary days, noticed.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 73,
+    "quote": "you don't have to earn the right to be proud of yourself.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 74,
+    "quote": "let go of who you thought you'd be, gently.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 75,
+    "quote": "the bravest thing is sometimes just trying again tomorrow.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 76,
+    "quote": "you can begin again as many times as you need to.",
+    "author": "HeyVanilla",
+    "category": "life-wisdom"
+  },
+  {
+    "id": 77,
+    "quote": "you don't have to understand it all today. just a little more than yesterday.",
+    "author": "HeyVanilla",
+    "category": "study"
+  },
+  {
+    "id": 78,
+    "quote": "a 25-minute focus beats a 3-hour scroll every time.",
+    "author": "HeyVanilla",
+    "category": "study"
+  },
+  {
+    "id": 79,
+    "quote": "confused is the first step toward understanding. keep reading.",
+    "author": "HeyVanilla",
+    "category": "study"
+  },
+  {
+    "id": 80,
+    "quote": "one chapter at a time builds the whole degree.",
+    "author": "HeyVanilla",
+    "category": "study"
+  },
+  {
+    "id": 81,
+    "quote": "your notes don't have to be pretty to be useful.",
+    "author": "HeyVanilla",
+    "category": "study"
+  },
+  {
+    "id": 82,
+    "quote": "the exam doesn't measure your worth. it measures one tuesday.",
+    "author": "HeyVanilla",
+    "category": "study"
+  },
+  {
+    "id": 83,
+    "quote": "learn it badly first. mastery comes from the redo.",
+    "author": "HeyVanilla",
+    "category": "study"
+  },
+  {
+    "id": 84,
+    "quote": "close the group chat. open the book. just for now.",
+    "author": "HeyVanilla",
+    "category": "study"
+  },
+  {
+    "id": 85,
+    "quote": "your brain needs breaks the way muscles need rest.",
+    "author": "HeyVanilla",
+    "category": "study"
+  },
+  {
+    "id": 86,
+    "quote": "future-you in the interview will thank present-you for today.",
+    "author": "HeyVanilla",
+    "category": "study"
+  },
+  {
+    "id": 87,
+    "quote": "you woke up and chose to try. that's not nothing.",
+    "author": "HeyVanilla",
+    "category": "study"
+  },
+  {
+    "id": 88,
+    "quote": "whatever today held, you carried it. set it down now.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 89,
+    "quote": "tomorrow is a clean page and your pen is full of ink.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 90,
+    "quote": "the softest version of you is still the strongest one.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 91,
+    "quote": "you are doing better than the anxious voice says you are.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 92,
+    "quote": "keep a little kindness in your pocket for yourself.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 93,
+    "quote": "the light comes back. it always has.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 94,
+    "quote": "breathe in calm, breathe out the rush.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 95,
+    "quote": "you are the safe place you've been looking for.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 96,
+    "quote": "trust the quiet work you're doing. it's adding up.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 97,
+    "quote": "don't shrink to fit a room. find the room that fits you.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 98,
+    "quote": "be gentle. you're meeting today for the first time too.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 99,
+    "quote": "you're allowed to be a beginner at something new at any age.",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  },
+  {
+    "id": 100,
+    "quote": "the melt never came. look at you, still standing. 🍦",
+    "author": "HeyVanilla",
+    "category": "self-care"
+  }
+]

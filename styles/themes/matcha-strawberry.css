@@ -1,0 +1,18 @@
+/* Matcha Strawberry — sage green meets strawberry */
+html.theme-matcha-strawberry {
+  --bg-primary: #E6EAD9;
+  --bg-secondary: #D8E2C4;
+  --bg-card: rgba(255, 255, 255, 0.5);
+  --text-primary: #3C4A2E;
+  --text-secondary: #6B7A52;
+  --accent: #D26A7E;
+  --accent-light: #EBB7C2;
+  --accent-dark: #A84B5E;
+  --border: rgba(107, 122, 82, 0.2);
+  --success: #7BA05B;
+  --warning: #D9A24E;
+  --danger: #C75C6B;
+  --font-display: var(--font-playfair);
+  --font-body: var(--font-quicksand);
+  --radius: 1.25rem;
+}

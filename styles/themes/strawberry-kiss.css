@@ -1,0 +1,18 @@
+/* Strawberry Kiss — warm terracotta + cocoa */
+html.theme-strawberry-kiss {
+  --bg-primary: #E2B8AD;
+  --bg-secondary: #D2BDAB;
+  --bg-card: rgba(255, 250, 245, 0.5);
+  --text-primary: #4A2A22;
+  --text-secondary: #87564B;
+  --accent: #6D322A;
+  --accent-light: #CFA195;
+  --accent-dark: #4A1F19;
+  --border: rgba(109, 50, 42, 0.18);
+  --success: #6E8B5E;
+  --warning: #C98A4B;
+  --danger: #B0473C;
+  --font-display: var(--font-playfair);
+  --font-body: var(--font-quicksand);
+  --radius: 1.25rem;
+}

@@ -1,0 +1,18 @@
+/* Princess Barbie — soft but bold pink, the default */
+html.theme-princess-barbie {
+  --bg-primary: #F7E5EB;
+  --bg-secondary: #F8D8E6;
+  --bg-card: rgba(255, 255, 255, 0.5);
+  --text-primary: #5C2742;
+  --text-secondary: #A55771;
+  --accent: #BC335F;
+  --accent-light: #ECABC9;
+  --accent-dark: #8E2247;
+  --border: rgba(188, 51, 95, 0.18);
+  --success: #5FAE7E;
+  --warning: #E0A458;
+  --danger: #D6536B;
+  --font-display: var(--font-playfair);
+  --font-body: var(--font-quicksand);
+  --radius: 1.25rem;
+}

@@ -1,0 +1,18 @@
+/* Midnight Plum — light mode purple */
+html.theme-midnight-plum {
+  --bg-primary: #E5D9E9;
+  --bg-secondary: #D8C8E0;
+  --bg-card: rgba(255, 255, 255, 0.5);
+  --text-primary: #4B2E59;
+  --text-secondary: #8C6AA0;
+  --accent: #8C6AA0;
+  --accent-light: #C9B4D1;
+  --accent-dark: #4B2E59;
+  --border: rgba(75, 46, 89, 0.16);
+  --success: #6FAE8B;
+  --warning: #D9A24E;
+  --danger: #C96A86;
+  --font-display: var(--font-inter);
+  --font-body: var(--font-inter);
+  --radius: 0.875rem;
+}

@@ -1,0 +1,18 @@
+# Local development with Docker. Just `docker compose up` after filling .env.
+services:
+  web:
+    build:
+      context: .
+      target: builder
+      args:
+        NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL}
+        NEXT_PUBLIC_SUPABASE_ANON_KEY: ${NEXT_PUBLIC_SUPABASE_ANON_KEY}
+    command: npm run dev
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next

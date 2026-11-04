@@ -1,0 +1,18 @@
+/* Moon — pink dusk over deep purple night */
+html.theme-moon {
+  --bg-primary: #F5D5E0;
+  --bg-secondary: #E9C3D6;
+  --bg-card: rgba(255, 255, 255, 0.5);
+  --text-primary: #210635;
+  --text-secondary: #7B337E;
+  --accent: #6667AB;
+  --accent-light: #A9A6D6;
+  --accent-dark: #420D4B;
+  --border: rgba(66, 13, 75, 0.18);
+  --success: #5FAE8B;
+  --warning: #D49A4E;
+  --danger: #C0506E;
+  --font-display: var(--font-playfair);
+  --font-body: var(--font-quicksand);
+  --radius: 1.25rem;
+}
