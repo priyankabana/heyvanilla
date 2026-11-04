@@ -27,3 +27,4 @@ public/worker-*.js
 .vscode/
 .idea/
 *.zip
+.env*
