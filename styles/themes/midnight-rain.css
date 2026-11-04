@@ -1,0 +1,18 @@
+/* Midnight Rain — dark mode purple */
+html.theme-midnight-rain {
+  --bg-primary: #1B1530;
+  --bg-secondary: #241B3D;
+  --bg-card: rgba(118, 105, 171, 0.12);
+  --text-primary: #ECE6F7;
+  --text-secondary: #B4A9D6;
+  --accent: #9765C2;
+  --accent-light: #A57FB8;
+  --accent-dark: #643C82;
+  --border: rgba(165, 127, 184, 0.22);
+  --success: #6FBE9A;
+  --warning: #E0B25E;
+  --danger: #E0738F;
+  --font-display: var(--font-inter);
+  --font-body: var(--font-inter);
+  --radius: 0.875rem;
+}

@@ -1,0 +1,18 @@
+/* Apple Cider — warm cream + cider red (neutral pack) */
+html.theme-apple-cider {
+  --bg-primary: #EDDECB;
+  --bg-secondary: #E1C5AE;
+  --bg-card: rgba(255, 252, 247, 0.55);
+  --text-primary: #4A241D;
+  --text-secondary: #A75A48;
+  --accent: #AF4B47;
+  --accent-light: #CFA992;
+  --accent-dark: #933F33;
+  --border: rgba(147, 63, 51, 0.18);
+  --success: #7E9A6E;
+  --warning: #C98A4B;
+  --danger: #AF4B47;
+  --font-display: var(--font-inter);
+  --font-body: var(--font-inter);
+  --radius: 0.875rem;
+}

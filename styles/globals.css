@@ -1,0 +1,272 @@
+/* ──────────────────────────────────────────────────────────────
+   HeyVanilla — globals.css
+   don't melt, Vanilla. you got this.
+
+   Direction: soft-editorial. Atmosphere over flat fills, layered glass,
+   characterful serif display, high-impact staggered motion on load.
+   Every theme is a set of CSS variable overrides on <html>.
+   ────────────────────────────────────────────────────────────── */
+
+@import './themes/princess-barbie.css';
+@import './themes/strawberry-kiss.css';
+@import './themes/matcha-strawberry.css';
+@import './themes/purple-life.css';
+@import './themes/moon.css';
+@import './themes/apple-cider.css';
+@import './themes/lana-del-ray.css';
+@import './themes/midnight-rain.css';
+@import './themes/midnight-plum.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Native controls (date/time pickers, selects) follow the light/dark mode so
+   they stop rendering as a pure-white block on themed/dark backgrounds. */
+html { color-scheme: light; }
+html.mode-dark { color-scheme: dark; }
+
+/* Show the right-coloured logo for the current mode. */
+html.mode-dark .only-light { display: none; }
+html:not(.mode-dark) .only-dark { display: none; }
+
+/* While the post-login welcome is playing, hide the dashboard chrome beneath it
+   so the page never flashes before the greeting. The inline script in the
+   dashboard layout sets data-welcoming="1" before first paint; WelcomeOverlay
+   clears it when the greeting finishes. */
+html[data-welcoming='1'] [data-welcome-hide] {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+:root {
+  --bg-primary: #f7e5eb;
+  --bg-secondary: #f8d8e6;
+  --bg-card: rgba(255, 255, 255, 0.55);
+  --text-primary: #5c2742;
+  --text-secondary: #a55771;
+  --accent: #bc335f;
+  --accent-light: #ecabc9;
+  --accent-dark: #8e2247;
+  --border: rgba(188, 51, 95, 0.18);
+  --success: #5fae7e;
+  --warning: #e0a458;
+  --danger: #d6536b;
+  --font-display: var(--font-playfair);
+  --font-body: var(--font-quicksand);
+  --radius: 1.25rem;
+}
+
+@layer base {
+  html {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  body {
+    position: relative;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    min-height: 100dvh;
+  }
+
+  /* Ambient gradient-mesh — three soft pools of theme colour, fixed behind
+     everything so the app never looks like a flat slab. */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    pointer-events: none;
+    background:
+      radial-gradient(45% 38% at 12% 8%, var(--accent-light) 0%, transparent 60%),
+      radial-gradient(40% 35% at 88% 4%, var(--accent) 0%, transparent 55%),
+      radial-gradient(55% 45% at 78% 92%, var(--accent-light) 0%, transparent 60%),
+      radial-gradient(40% 40% at 8% 96%, var(--accent) 0%, transparent 55%);
+    opacity: 0.5;
+    filter: saturate(1.1);
+  }
+
+  /* Fine grain so the gradients read as a designed surface, not a render. */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.035;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.015em;
+    line-height: 1.12;
+    font-feature-settings: 'liga' 1, 'kern' 1;
+  }
+
+  /* Optical refinement: large serif display reads better a touch tighter. */
+  h1 { letter-spacing: -0.025em; }
+
+  p, span, button, input, textarea, select, li, a {
+    font-feature-settings: 'kern' 1;
+  }
+
+  /* A premium, consistent focus ring everywhere keyboard users land. */
+  :focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--accent) 70%, transparent);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Signature card: layered glass with a soft top highlight, a faint accent
+     hairline along the top edge, and a deep, soft drop shadow for real depth. */
+  .glass-card {
+    position: relative;
+    isolation: isolate;
+    background:
+      linear-gradient(160deg, color-mix(in srgb, var(--bg-card) 100%, white 16%), var(--bg-card));
+    backdrop-filter: blur(18px) saturate(1.25);
+    -webkit-backdrop-filter: blur(18px) saturate(1.25);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow:
+      0 1px 0 0 rgba(255, 255, 255, 0.45) inset,
+      0 2px 6px -2px rgba(0, 0, 0, 0.12),
+      0 18px 40px -22px rgba(0, 0, 0, 0.34);
+  }
+  /* Hairline of accent light along the very top — the detail you remember. */
+  .glass-card::before {
+    content: '';
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 1px;
+    border-radius: var(--radius) var(--radius) 0 0;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in srgb, var(--accent) 45%, transparent),
+      transparent
+    );
+    opacity: 0.7;
+    pointer-events: none;
+  }
+
+  /* Cards that respond to the cursor — lift + accent glow. */
+  .card-hover {
+    transition:
+      transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 0.28s ease,
+      border-color 0.28s ease;
+  }
+  .card-hover:hover {
+    transform: translateY(-4px);
+    border-color: color-mix(in srgb, var(--accent) 30%, var(--border));
+    box-shadow:
+      0 1px 0 0 rgba(255, 255, 255, 0.55) inset,
+      0 4px 10px -4px rgba(0, 0, 0, 0.14),
+      0 30px 56px -26px color-mix(in srgb, var(--accent) 50%, transparent);
+  }
+
+  .wordmark-hey { color: var(--text-secondary); }
+  .wordmark-vanilla { color: var(--accent); }
+
+  /* Accent gradient text — for hero numbers and standout headings. */
+  .text-gradient {
+    background: linear-gradient(
+      135deg,
+      var(--accent),
+      color-mix(in srgb, var(--accent) 55%, var(--accent-light))
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Soft accent chip behind a widget's header icon — gives every card a small,
+     consistent identity mark. */
+  .icon-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 0.6rem;
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 12%, transparent);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 16%, transparent);
+  }
+
+  /* Subtle press feedback for small interactive controls. */
+  .press {
+    transition: transform 0.12s ease;
+  }
+  .press:active { transform: scale(0.94); }
+
+  /* Staggered page-load reveal. Children opt in with .reveal + a delay var. */
+  .reveal {
+    opacity: 0;
+    animation: reveal-up 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    animation-delay: var(--reveal-delay, 0ms);
+  }
+
+  /* Skeleton shimmer for loading states (no more spinners). */
+  .skeleton {
+    background: linear-gradient(
+      100deg,
+      color-mix(in srgb, var(--bg-secondary) 70%, transparent) 30%,
+      color-mix(in srgb, white 30%, var(--bg-secondary)) 50%,
+      color-mix(in srgb, var(--bg-secondary) 70%, transparent) 70%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.4s ease-in-out infinite;
+    border-radius: 0.75rem;
+  }
+}
+
+@keyframes reveal-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+
+/* ──────────────────────────────────────────────────────────────
+   Dark mode — a universal dark surface that keeps each theme's accent.
+   Declared after the theme @imports so it wins on equal specificity
+   (html.theme-x vs html.mode-dark are both 0,1,1 → source order decides).
+   Only neutral surfaces + text + border are overridden; the accent trio
+   stays whatever aesthetic the user picked, so dark mode is still "their" theme.
+   ────────────────────────────────────────────────────────────── */
+html.mode-dark {
+  --bg-primary: #14111a;
+  --bg-secondary: #1d1825;
+  --bg-card: rgba(42, 34, 52, 0.55);
+  --text-primary: #f2ecf4;
+  --text-secondary: #b6a8be;
+  --border: rgba(255, 255, 255, 0.1);
+}
+html.mode-dark body::before { opacity: 0.4; }
+html.mode-dark body::after { opacity: 0.05; }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--accent) 55%, transparent);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-track { background: transparent; }
+::selection { background: var(--accent-light); color: var(--text-primary); }

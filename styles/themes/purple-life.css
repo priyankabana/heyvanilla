@@ -1,0 +1,18 @@
+/* Purple Life — soft lavender, deep purple accents */
+html.theme-purple-life {
+  --bg-primary: #E8DFF5;
+  --bg-secondary: #DCCFF0;
+  --bg-card: rgba(255, 255, 255, 0.55);
+  --text-primary: #3D2459;
+  --text-secondary: #6B4F8E;
+  --accent: #9C7CB8;
+  --accent-light: #C9B4E0;
+  --accent-dark: #6B4F8E;
+  --border: rgba(107, 79, 142, 0.18);
+  --success: #6FAE8B;
+  --warning: #D9A24E;
+  --danger: #C96A86;
+  --font-display: var(--font-playfair);
+  --font-body: var(--font-quicksand);
+  --radius: 1.25rem;
+}
